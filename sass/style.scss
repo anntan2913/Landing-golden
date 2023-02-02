@@ -25,3 +25,93 @@ section {
     margin: 80px auto; 
     padding: 0 20px; 
 }
+
+/* Splash */
+
+.splash {
+    height: 90vh;
+    background-image: url('https://images.pexels.com/photos/1252814/pexels-photo-1252814.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: local;
+    position: relative;
+}
+
+.nav {
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.nav li {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+    color:#fff;
+    font-variant: small-caps;
+    text-align: center;
+}
+.splash-inner {
+    margin: auto;
+    padding: 10px 0;
+    position: relative;
+    max-width: 90%;
+    max-height: 70%;
+    text-align: center;
+    top: 25%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+.splash .row {
+    margin-top: 20px;
+    padding: 0;
+}
+.brand {
+    text-align: center;
+    font-size: 25px;
+    color: #f1c40f;
+    font-family: $font-text;
+    font-weight: 300;
+    padding-top: 0cm;
+    margin-top: 0;
+}
+.page-title {
+    color: $color-light;
+    font-size: 30px;
+    font-family: $font-text;
+    word-spacing: 15px;
+    margin: 10px 0 0 0;  
+    position: relative;
+    }
+.page-subtitle {
+    color: $color-light;
+    font-size: 65px;
+    margin: 6px 0 0 0;
+    text-shadow: 2px 4px 6px black;
+    font-weight: 400;
+    font-style: $font-header;
+}
+.btn {
+    display: inline-block;
+    min-width: 180px;
+    margin: 25px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    border-color: #f1c40f;
+    background-color: #f1c40f;
+    font-size: 20px;
+    font-weight: 500;
+    color:$color-light;
+    font-variant: small-caps;
+    cursor: pointer;
+}
