@@ -1,3 +1,27 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+section {
+  padding: 100, auto;
+}
+
+.container {
+  max-width: 75%;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBTUE7RUFDSSxzQkFBQTtBQ0pKOztBRE1BO0VBQ0ksU0FBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQ0FiVTtBQ1VkOztBREtBO0VBQ0ksa0JBQUE7QUNGSjs7QURJQTtFQUNJLGNBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7QUNESiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
