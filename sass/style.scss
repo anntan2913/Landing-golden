@@ -187,6 +187,8 @@ a {
     font-variant: normal;
     font-family: $font-text;
 }
+/* Footer */
+
 .footer .container {
     display: inline-flex;
     flex-wrap: nowrap; 
@@ -199,4 +201,25 @@ a {
 .box-socialmedia {
     padding: 10px;
 }  
-  
+.footer i {
+    font-size: 20px;
+    color: #fff;
+    background-color: #030303;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 auto;
+    display: inline block; 
+}
+.footer ul {
+    padding-left: 0;
+}
+.footer ul li {
+   display: inline;
+    font-size: 0;
+    padding: 5px; 
+    margin-left: 0;    
+}  
