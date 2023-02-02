@@ -159,3 +159,44 @@ a {
     margin: 0 auto;
     display: inline block;
 }
+/* Our Portfolio */
+
+.our-portfolio {
+    background-color: #e5e2e2;
+}
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+    .responsive {
+        width: 100%;
+        height: auto; 
+    }
+}
+.galery-info {
+    font-size: 18px;
+    color:#030303;
+    background-color: #fff;
+    padding: 10px 0;
+    margin-top: 0;
+}
+.galery-link {
+    font-size: 17px;
+    color:#030303;
+    font-variant: normal;
+    font-family: $font-text;
+}
+.footer .container {
+    display: inline-flex;
+    flex-wrap: nowrap; 
+}
+.box-info {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+.box-socialmedia {
+    padding: 10px;
+}  
+  
