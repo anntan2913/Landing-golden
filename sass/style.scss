@@ -135,3 +135,27 @@ a {
     font-variant: small-caps;
     cursor: pointer;
 }
+
+/* Services */
+
+.about-brand {
+    padding-top: 80px;
+    padding-bottom: 0;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.card-body i {
+    font-size: 50px;
+    color: #f1c40f;
+    background-color: #fff;
+    border-color: #f1c40f;
+    margin: 1px;
+    width: 60px;
+    height: 60pm;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+    display: inline block;
+}
